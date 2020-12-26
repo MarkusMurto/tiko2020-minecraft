@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2020 Markus Murto <markus.murto@kusochi.eu>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[Unit]
+Description=Minecraftserver
+After=network.target
+
+[Service]
+User=mctiko
+Group=mctiko
+WorkingDirectory=/home/mctiko/server
+ExecStart=/usr/bin/screen -DmS mc /usr/bin/java -Xms3G -Xmx3G -jar minecraft_server.1.16.4.jar --nogui
+ExecStop=/usr/bin/screen -p 0 -S mc -X eval 'stuff "say PALVELIN AJETAAN ALAS 30 SEKUNNIN KULUTTUA..."\015'
+ExecStop=/bin/sleep 15
+ExecStop=/usr/bin/screen -p 0 -S mc -X eval 'stuff "say PALVELIN AJETAAN ALAS 15 SEKUNNIN KULUTTUA..."\015'
+ExecStop=/bin/sleep 5
+ExecStop=/usr/bin/screen -p 0 -S mc -X eval 'stuff "say PALVELIN AJETAAN ALAS 10 SEKUNNIN KULUTTUA..."\015'
+ExecStop=/bin/sleep 5
+ExecStop=/usr/bin/screen -p 0 -S mc -X eval 'stuff "say PALVELIN AJETAAN ALAS 5 SEKUNNIN KULUTTUA..."\015'
+ExecStop=/bin/sleep 5
+ExecStop=/usr/bin/screen -p 0 -S mc -X eval 'stuff "save-all"\015'
+ExecStop=/usr/bin/screen -p 0 -S mc -X eval 'stuff "stop"\015'
+
+[Install]
+WantedBy=multi-user.target
