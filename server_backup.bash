@@ -1,4 +1,7 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2020 Markus Murto <markus.murto@kusochi.eu>
+#
+# SPDX-License-Identifier: MIT
 # 
 # Varmuuskopioidaan Minecraft-palvelimen maailma.
 # Varmuuskopio pakataan .tar.gz ja poistetaan yli vuorokauden vanhat varmuuskopiot
