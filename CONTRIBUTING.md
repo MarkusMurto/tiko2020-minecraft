@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2020 Markus Murto <markus.murto@kusochi.eu>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # Kehitykseen osallistuminen
 
 Jotta pidetään koodi ja repo siistinä, seurataan tätä dokumenttia. Tarkkaa opasta ei voi kirjoittaa, mutta tätä seuraamalla ja maalaisjärkeä noudattamalla saadaan hyvää tulosta.
