@@ -42,7 +42,7 @@ Hyvä idea olisi asentaa `reuse`-työkalu omalle työasemallesi:
 pip3 install --user reuse
 ```
 
-Tämän jälkeen voit tarkistaa, noudattaako forkkisi REUSE:a:
+Tämän jälkeen voit tarkistaa, noudattaako forkkisi REUSE:a.
 
 ```
 reuse lint
