@@ -19,8 +19,8 @@ Tämä git repo sisältää sekalaisia skriptejä ja konffitiedostoja, joita kä
 ## Lisenssit
 Tiedostoissa käytetään eri lisenssejä, mutta yhteenvetona:
 
-- Koodiksi luokiteltavat lisensoitu: MIT
-- Konfiguraatiotiedostot sekä tätä README: CC0
+- Koodiksi luokiteltavat: MIT
+- Konfiguraatiotiedostot sekä tämä README: CC0
 
 Koska noudatetaan REUSE:a, tarkempi informaatio tekijänoikeuksista ja lisensseistä löytyy aina tiedoston yläosasta.
 
