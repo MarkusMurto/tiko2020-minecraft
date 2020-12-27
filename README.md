@@ -10,7 +10,7 @@ SPDX-License-Identifier: CC0-1.0
 
 Tämä git repo sisältää sekalaisia skriptejä ja konffitiedostoja, joita käytetään tikojen Minecraft-palvelimella. 
 
-# Lisenssit
+## Lisenssit
 Tiedostoissa käytetään eri lisenssejä, mutta yhteenvetona:
 
 - Koodiksi luokiteltavat lisensoitu: MIT
