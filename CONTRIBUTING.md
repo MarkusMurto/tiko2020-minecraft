@@ -37,7 +37,7 @@ SPDX-License-Identifier: MIT
 `FileCopyrightText` on melko vapaamuotoinen, mutta merkkaa edellisen perään pilkulla erotettuna, mikäli olet muokkaamassa jo olemassa olevaa tiedostoa:
 
 ```
-SPDX-FileCopyrightText: 2020 Matti Meikäläinen <email>, Maija Meikäläinen <email>
+SPDX-FileCopyrightText: 2020 Matti Meikäläinen <email>, 2021 Maija Meikäläinen <email>
 ```
 
 ### Noudata REUSE:a
