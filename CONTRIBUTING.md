@@ -31,7 +31,7 @@ Sen lisäksi, että tämä repo käyttää vapaita lisenssejä, tämä repo pyrk
 ```
 SPDX-FileCopyrightText: 2020 Matti Meikäläinen <email>
 
-SPDX-License-Identifier: LISENSSI
+SPDX-License-Identifier: MIT
 ```
 
 `FileCopyrightText` on melko vapaamuotoinen, mutta merkkaa edellisen perään pilkulla erotettuna, mikäli olet muokkaamassa jo olemassa olevaa tiedostoa:
