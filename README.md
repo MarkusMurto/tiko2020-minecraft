@@ -10,6 +10,12 @@ SPDX-License-Identifier: CC0-1.0
 
 Tämä git repo sisältää sekalaisia skriptejä ja konffitiedostoja, joita käytetään tikojen Minecraft-palvelimella. 
 
+## Sisältö
+
+`minecraft_server.service` - systemd-service, jolla käynnistetään ja suljetaan Minecraft-palvelin.
+
+`server_backup.bash` - bash-skripti, jolla luodaan varmuuskopio Minecraft-palvelimen maailmasta. Sopiva cronjobiksi.
+
 ## Lisenssit
 Tiedostoissa käytetään eri lisenssejä, mutta yhteenvetona:
 
